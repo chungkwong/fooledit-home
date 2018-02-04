@@ -296,3 +296,9 @@ form input{
     font-style: italic;
     font-size: 80%;
 }
+.asc:after{
+	content: '↓';
+}
+.desc:after{
+	content: '↑';
+}

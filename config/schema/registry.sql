@@ -1,6 +1,4 @@
-<?php
-
-/*
+/* 
  * The MIT License
  *
  * Copyright 2018 kwong.
@@ -23,22 +21,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
-namespace App\Controller;
-use Cake\Datasource\ConnectionManager;
-
 /**
- * Description of AdminController
- *
- * @author kwong
+ * Author:  kwong
+ * Created: 2018-2-4
  */
-class AdminController extends AppController{
-    public function reset(){
-        $connection = ConnectionManager::get('default');
-        $connection->execute(file_get_contents(CONFIG . '/schema/i18n.sql',true));
-        $connection->execute(file_get_contents(CONFIG . '/schema/users.sql',true));
-        $connection->execute(file_get_contents(CONFIG . '/schema/documents.sql',true));
-        $connection->execute(file_get_contents(CONFIG . '/schema/files.sql',true));
-        $connection->execute(file_get_contents(CONFIG . '/schema/registry.sql',true));
-    }
-}
+CREATE TABLE IF NOT EXISTS registry (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    entry_key VARCHAR(181) NOT NULL,
+    entry_value TEXT NOT NULL,
+    published BOOLEAN DEFAULT FALSE,
+    created DATETIME,
+    modified DATETIME,
+    UNIQUE KEY (entry_key),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);

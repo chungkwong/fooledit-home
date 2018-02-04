@@ -95,6 +95,7 @@ class DocumentsController extends AppController
         $document = $this->Documents->get($id, [
             'contain' => []
         ]);
+		
         if ($this->request->is(['patch', 'post', 'put'])) {
             $document = $this->Documents->patchEntity($document, $this->request->getData());
             if ($this->Documents->save($document)) {

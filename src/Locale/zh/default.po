@@ -622,3 +622,39 @@ msgstr "上级"
 
 msgid "Slug"
 msgstr "简称"
+
+msgid "The entry has been saved."
+msgstr "条目已保存。"
+
+msgid "The entry could not be saved. Please, try again."
+msgstr "条目保存不了。请重试。"
+
+msgid "The entry has been deleted."
+msgstr "条目已删除。"
+
+msgid "The entry could not be deleted. Please, try again."
+msgstr "条目删除不了。请重试。"
+
+msgid "Registry"
+msgstr "注册表"
+
+msgid "Add Entry"
+msgstr "增加条目"
+
+msgid "New Entry"
+msgstr "新增条目"
+
+msgid "List Entries"
+msgstr "查看注册表"
+
+msgid "Edit Entry"
+msgstr "编辑条目"
+
+msgid "Delete Entry"
+msgstr "删除条目"
+
+msgid "Entry Key"
+msgstr "键"
+
+msgid "Entry Value"
+msgstr "值"
