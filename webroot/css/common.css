@@ -1,0 +1,298 @@
+/*
+The MIT License
+
+Copyright 2017 kwong.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+/* 
+    Created on : 2017-12-28, 16:37:22
+    Author     : kwong
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    background-color: pink;
+}
+header {
+    width: 100%;
+    font-size: 200%;
+    font-family: sans-serif;
+    top: 0px;
+    left: 0px;
+}
+
+.home{
+    display: inline-block;
+}
+
+.slogen {
+    border-collapse: collapse;
+    display: inline-block;
+    border: none;
+    height: 100%;
+    right: 0;
+}
+
+#logo {
+    height: 1.5em;
+    float: left;
+    width: 1.5em;
+    
+}
+
+#title {
+    color: green;
+    font-size: 66%;
+    font-family: sans-serif;
+    top:0px;
+}
+
+#description {
+    font-size: 33%;
+    color: red;
+    font-style: italic;
+    bottom: 0px;
+}
+
+.dropdown{
+    color: blue;
+    display: inline-block;
+}
+
+.searchbox{
+    background-color: lightpink;
+    border-style: none;
+    border-collapse: collapse;
+    border: none;
+    right: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: purple;
+}
+
+footer {
+    background-color: pink;
+    color: gray;
+    bottom: 0;
+}
+
+h1 {
+    text-align: center;	
+    font-size: 400%;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+q {
+    display: block;
+    font-style: italic;
+    text-align: center;
+}
+
+.column {
+    float: left;
+}
+.right{
+    float: right;
+}
+.inline{
+    display: inline;
+}
+.nowrap{
+    display: inline-block;
+}
+#localeChooser{
+    background-color: transparent;
+    border: 0;
+}
+#localeChooser option{
+    background-color: green;
+    color: purple;
+    text-align: right;
+}
+
+dl{
+    
+}
+dt{
+    font-weight: bold;
+}
+dd{
+    text-indent: 2em;
+}
+
+footer a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+
+form{
+    display: table;
+}
+form div{
+    display: table-row;
+}
+form label{
+    display: table-cell;
+}
+form input{
+    display: table-cell;
+}
+
+.side-nav{
+    display: block;
+    background-color: yellowgreen;
+}
+.side-nav li{
+    display: inline-block;
+}
+.side-nav li:first-of-type{
+    background-color: red;
+}
+
+.documents{
+    display:table;
+    width: 100%;
+}
+.table-of-contents{
+    display: table-cell;
+    background-color: lightyellow;
+}
+.table-of-contents li{
+    padding-left: 1em;
+    list-style: none
+}
+.article{
+    display: table-cell;
+    background-color:lightsteelblue;
+}
+
+.message{
+    font-size: large;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
+.error{
+    background: darkred;
+    color: white;
+}
+
+.success{
+    background: darkgreen;
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+.main-link{
+    color: purple;
+}
+.paginator{
+    background-color: skyblue;
+}
+.pagination li{
+    display: inline;
+}
+.content h2{
+    font-size: 200%;
+    background-color: skyblue;
+}
+.content thead{
+    background-color: yellow;
+}
+.content tbody{
+    background-color: white;
+}
+.content table {
+	width: 100%;
+}
+.content table td,
+.content table th {
+	text-align: left;
+	padding: 9px;
+}
+.content table td {
+	border-bottom: 1px solid #ccc;
+}
+.content table th {
+	font-weight: bold;
+}
+.body{
+    
+}
+.created{
+    font-style: italic;
+    font-size: 80%;
+}
+.modified{
+    font-style: italic;
+    font-size: 80%;
+}

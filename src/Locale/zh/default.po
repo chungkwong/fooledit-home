@@ -1,0 +1,624 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-01-24 09:00+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/DocumentsController.php:32
+#: Template/Documents/index.ctp:16
+msgid "Documents"
+msgstr "文档"
+
+#: Controller/DocumentsController.php:67;94
+msgid "The document has been saved."
+msgstr "文档已保存。"
+
+#: Controller/DocumentsController.php:71;98
+msgid "The document could not be saved. Please, try again."
+msgstr "文档保存不了。请重试。"
+
+#: Controller/DocumentsController.php:116
+msgid "The translation has been saved."
+msgstr "翻译已保存。"
+
+#: Controller/DocumentsController.php:120
+msgid "The translation could not be saved. Please, try again."
+msgstr "翻译保存不了。请重试。"
+
+#: Controller/DocumentsController.php:139
+msgid "The document has been deleted."
+msgstr "文档已删除。"
+
+#: Controller/DocumentsController.php:141
+msgid "The document could not be deleted. Please, try again."
+msgstr "文档删除不了。请重试。"
+
+#: Controller/DocumentsController.php:152;158
+msgid "Not found"
+msgstr "找不到"
+
+msgid "{0} not found"
+msgstr "找不到{0}"
+
+#: Controller/FilesController.php:71;120
+msgid "The file has been saved."
+msgstr "文件已保存。"
+
+#: Controller/FilesController.php:74;124
+msgid "The file could not be saved. Please, try again."
+msgstr "文件保存不了。请重试。"
+
+#: Controller/FilesController.php:143
+msgid "The file has been deleted."
+msgstr "文件已删除。"
+
+#: Controller/FilesController.php:145
+msgid "The file could not be deleted. Please, try again."
+msgstr "文件删除不了。请重试。"
+
+#: Controller/PermissionsController.php:60;86
+msgid "The permission has been saved."
+msgstr "权限已保存。"
+
+#: Controller/PermissionsController.php:64;90
+msgid "The permission could not be saved. Please, try again."
+msgstr "权限保存不了。请重试。"
+
+#: Controller/PermissionsController.php:109
+msgid "The permission has been deleted."
+msgstr "权限已删除。"
+
+#: Controller/PermissionsController.php:111
+msgid "The permission could not be deleted. Please, try again."
+msgstr "权限删除不了。请重试。"
+
+#: Controller/UsersController.php:65;90;152
+msgid "The user has been saved."
+msgstr "用户已保存。"
+
+#: Controller/UsersController.php:69;94
+msgid "The user could not be saved. Please, try again."
+msgstr "用户保存不了。请重试。"
+
+#: Controller/UsersController.php:112
+msgid "The user has been deleted."
+msgstr "用户已删除。"
+
+#: Controller/UsersController.php:114
+msgid "The user could not be deleted. Please, try again."
+msgstr "用户删除不了。请重试。"
+
+#: Controller/UsersController.php:127
+msgid "Username or password is incorrect"
+msgstr "用户名或密码错误"
+
+#: Template/Documents/add.ctp:12
+#: Template/Documents/edit.ctp:9
+#: Template/Documents/index.ctp:9;28
+#: Template/Documents/translate.ctp:9
+#: Template/Documents/view.ctp:10
+#: Template/Files/add.ctp:9
+#: Template/Files/edit.ctp:9
+#: Template/Files/index.ctp:9;28
+#: Template/Files/view.ctp:9
+#: Template/Permissions/add.ctp:9
+#: Template/Permissions/edit.ctp:9
+#: Template/Permissions/index.ctp:9;23
+#: Template/Permissions/view.ctp:9
+#: Template/Users/add.ctp:9
+#: Template/Users/edit.ctp:9
+#: Template/Users/index.ctp:9;27
+#: Template/Users/view.ctp:9;58
+msgid "Actions"
+msgstr "操作"
+
+#: Template/Documents/add.ctp:13
+#: Template/Documents/edit.ctp:16
+#: Template/Documents/translate.ctp:16
+#: Template/Documents/view.ctp:13
+msgid "List Documents"
+msgstr "文档列表"
+
+#: Template/Documents/add.ctp:14
+#: Template/Documents/edit.ctp:17
+#: Template/Documents/translate.ctp:17
+#: Template/Documents/view.ctp:15
+msgid "List Parent Documents"
+msgstr "上级文档列表"
+
+#: Template/Documents/add.ctp:15
+#: Template/Documents/edit.ctp:18
+#: Template/Documents/translate.ctp:18
+#: Template/Documents/view.ctp:16
+msgid "New Parent Document"
+msgstr "创建上级文档"
+
+#: Template/Documents/add.ctp:16
+#: Template/Documents/edit.ctp:19
+#: Template/Documents/index.ctp:11
+#: Template/Documents/translate.ctp:19
+#: Template/Documents/view.ctp:17
+#: Template/Files/add.ctp:11
+#: Template/Files/edit.ctp:17
+#: Template/Files/index.ctp:11
+#: Template/Files/view.ctp:14
+#: Template/Permissions/add.ctp:11
+#: Template/Permissions/edit.ctp:17
+#: Template/Permissions/index.ctp:11
+#: Template/Permissions/view.ctp:14
+#: Template/Users/add.ctp:10
+#: Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:12
+msgid "List Users"
+msgstr "用户列表"
+
+#: Template/Documents/add.ctp:17
+#: Template/Documents/edit.ctp:20
+#: Template/Documents/index.ctp:12
+#: Template/Documents/translate.ctp:20
+#: Template/Documents/view.ctp:18
+#: Template/Files/add.ctp:12
+#: Template/Files/edit.ctp:18
+#: Template/Files/index.ctp:12
+#: Template/Files/view.ctp:15
+#: Template/Permissions/add.ctp:12
+#: Template/Permissions/edit.ctp:18
+#: Template/Permissions/index.ctp:12
+#: Template/Permissions/view.ctp:15
+#: Template/Users/index.ctp:10
+#: Template/Users/view.ctp:13
+msgid "New User"
+msgstr "新增用户"
+
+#: Template/Documents/add.ctp:23
+msgid "Add Document"
+msgstr "新增文档"
+
+#: Template/Documents/add.ctp:32
+#: Template/Documents/edit.ctp:35
+#: Template/Documents/translate.ctp:31
+#: Template/Files/add.ctp:27
+#: Template/Files/edit.ctp:34
+#: Template/Permissions/add.ctp:24
+#: Template/Permissions/edit.ctp:30
+#: Template/Users/add.ctp:25
+#: Template/Users/edit.ctp:32
+msgid "Submit"
+msgstr "提交"
+
+#: Template/Documents/edit.ctp:11
+#: Template/Documents/index.ctp:45
+#: Template/Documents/translate.ctp:11
+#: Template/Files/edit.ctp:11
+#: Template/Files/index.ctp:46
+#: Template/Permissions/edit.ctp:11
+#: Template/Permissions/index.ctp:35
+#: Template/Users/edit.ctp:11
+#: Template/Users/index.ctp:43
+#: Template/Users/view.ctp:68
+msgid "Delete"
+msgstr "删除"
+
+#: Template/Documents/edit.ctp:13
+#: Template/Documents/index.ctp:45
+#: Template/Documents/translate.ctp:13
+#: Template/Documents/view.ctp:12
+#: Template/Files/edit.ctp:13
+#: Template/Files/index.ctp:46
+#: Template/Files/view.ctp:11
+#: Template/Permissions/edit.ctp:13
+#: Template/Permissions/index.ctp:35
+#: Template/Permissions/view.ctp:11
+#: Template/Users/edit.ctp:13
+#: Template/Users/index.ctp:43
+#: Template/Users/view.ctp:11;68
+msgid "Are you sure you want to delete # {0}?"
+msgstr "你确定要删除第{0}项"
+
+#: Template/Documents/edit.ctp:26
+#: Template/Documents/view.ctp:11
+msgid "Edit Document"
+msgstr "编辑文档"
+
+#: Template/Documents/index.ctp:10
+#: Template/Documents/view.ctp:14
+msgid "New Document"
+msgstr "新文档"
+
+#: Template/Documents/index.ctp:43
+#: Template/Files/index.ctp:44
+#: Template/Permissions/index.ctp:33
+#: Template/Users/index.ctp:41
+#: Template/Users/view.ctp:66
+msgid "View"
+msgstr "阅读"
+
+#: Template/Documents/index.ctp:44
+#: Template/Files/index.ctp:45
+#: Template/Permissions/index.ctp:34
+#: Template/Users/index.ctp:42
+#: Template/Users/view.ctp:67
+msgid "Edit"
+msgstr "编辑"
+
+#: Template/Documents/index.ctp:53
+#: Template/Files/index.ctp:54
+#: Template/Permissions/index.ctp:43
+#: Template/Users/index.ctp:51
+msgid "first"
+msgstr "开始"
+
+#: Template/Documents/index.ctp:54
+#: Template/Files/index.ctp:55
+#: Template/Permissions/index.ctp:44
+#: Template/Users/index.ctp:52
+msgid "previous"
+msgstr "上一页"
+
+#: Template/Documents/index.ctp:56
+#: Template/Files/index.ctp:57
+#: Template/Permissions/index.ctp:46
+#: Template/Users/index.ctp:54
+msgid "next"
+msgstr "下一页"
+
+#: Template/Documents/index.ctp:57
+#: Template/Files/index.ctp:58
+#: Template/Permissions/index.ctp:47
+#: Template/Users/index.ctp:55
+msgid "last"
+msgstr "结束"
+
+#: Template/Documents/index.ctp:59
+#: Template/Files/index.ctp:60
+#: Template/Permissions/index.ctp:49
+#: Template/Users/index.ctp:57
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "{{pages}}页中的第{{page}}页，显示了{{count}}个结果中的{{current}}个"
+
+#: Template/Documents/translate.ctp:24
+msgid "Translate Document"
+msgstr "翻译文档"
+
+#: Template/Documents/translate.ctp:27
+msgid "Locale"
+msgstr "语言"
+
+#: Template/Documents/translate.ctp:28
+#: Template/Files/view.ctp:26
+msgid "Title"
+msgstr "标题"
+
+#: Template/Documents/translate.ctp:29
+msgid "Body"
+msgstr "内容"
+
+#: Template/Documents/view.ctp:12
+msgid "Delete Document"
+msgstr "删除文档"
+
+#: Template/Documents/view.ctp:19
+msgid "List Child Documents"
+msgstr "下级文档列表"
+
+#: Template/Documents/view.ctp:20
+msgid "New Child Document"
+msgstr "新增下级文档"
+
+#: Template/Documents/view.ctp:60
+msgid "Published"
+msgstr "发表于"
+
+#: Template/Documents/view.ctp:60
+msgid "Submitted"
+msgstr "提交于"
+
+#: Template/Documents/view.ctp:67
+#: Template/Files/view.ctp:50
+#: Template/Users/view.ctp:46
+msgid "Modified"
+msgstr "修改于"
+
+#: Template/Element/footer.ctp:4
+msgid "Creative Commons License"
+msgstr "知识共享协议"
+
+#: Template/Element/footer.ctp:9
+msgid "This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>."
+msgstr "本网页采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。"
+
+#: Template/Element/header.ctp:6
+#: Template/Layout/default.ctp:24
+msgid "Fooledit"
+msgstr "傻瓜编辑器"
+
+#: Template/Element/header.ctp:9
+msgid "The editor for fool"
+msgstr "全心全意为傻瓜服务"
+
+#: Template/Element/header.ctp:14
+#: Template/Pages/donate.ctp:5
+msgid "Donate"
+msgstr "捐助"
+
+#: Template/Element/header.ctp:15
+msgid "Progress"
+msgstr "进度"
+
+#: Template/Element/header.ctp:19
+msgid "Search"
+msgstr "搜索"
+
+#: Template/Files/add.ctp:10
+#: Template/Files/edit.ctp:16
+#: Template/Files/view.ctp:12
+msgid "List Files"
+msgstr "文件列表"
+
+#: Template/Files/add.ctp:18
+msgid "Add File"
+msgstr "新增文件"
+
+#: Template/Files/edit.ctp:24
+#: Template/Files/view.ctp:10
+msgid "Edit File"
+msgstr "编辑文件"
+
+#: Template/Files/index.ctp:10
+#: Template/Files/view.ctp:13
+msgid "New File"
+msgstr "新增文件"
+
+#: Template/Files/index.ctp:16
+msgid "Files"
+msgstr "文件"
+
+#: Template/Files/index.ctp:43
+msgid "Fetch"
+msgstr "获取"
+
+#: Template/Files/view.ctp:11
+msgid "Delete File"
+msgstr "删除文件"
+
+#: Template/Files/view.ctp:22
+#: Template/Permissions/view.ctp:22
+msgid "User"
+msgstr "用户"
+
+#: Template/Files/view.ctp:30
+msgid "Filename"
+msgstr "文件名"
+
+#: Template/Files/view.ctp:34
+msgid "Mimetype"
+msgstr "类型"
+
+#: Template/Files/view.ctp:38
+#: Template/Permissions/view.ctp:30
+#: Template/Users/view.ctp:38;55
+msgid "Id"
+msgstr "编号"
+
+#: Template/Files/view.ctp:42
+msgid "Filesize"
+msgstr "文件大小"
+
+#: Template/Files/view.ctp:46
+#: Template/Users/view.ctp:42
+msgid "Created"
+msgstr "创建于"
+
+#: Template/Files/view.ctp:55
+msgid "Description"
+msgstr "描述"
+
+#: Template/Layout/default.ctp:24
+msgid "Fooledit - The editor for fool"
+msgstr "傻瓜编辑器全心全意为傻瓜服务"
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr "错误"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "后退"
+
+#: Template/Pages/donate.ctp:3
+msgid "PayPal"
+msgstr "PayPal（贝宝）"
+
+#: Template/Pages/donate.ctp:5
+msgid "paypal_en_US.gif"
+msgstr "paypal_zh_CN.gif"
+
+#: Template/Pages/donate.ctp:7
+msgid "AliPay"
+msgstr "支付宝"
+
+#: Template/Pages/donate.ctp:9
+msgid "QR code"
+msgstr "二维码"
+
+#: Template/Pages/home.ctp:18
+msgid "Coming soon"
+msgstr "敬请期待"
+
+#: Template/Pages/home.ctp:19
+msgid "Public test expected at Q3 of 2018"
+msgstr "预计在2018年第三季开始公测"
+
+#: Template/Pages/home.ctp:23
+msgid "Powerful"
+msgstr "应有尽有的功能"
+
+#: Template/Pages/home.ctp:25
+msgid "Efficient"
+msgstr "高效的文本编辑"
+
+#: Template/Pages/home.ctp:26
+msgid "Accurate"
+msgstr "精确的语言感知"
+
+#: Template/Pages/home.ctp:27
+msgid "Integrated"
+msgstr "全面的工具整合"
+
+#: Template/Pages/home.ctp:28
+msgid "Extensible"
+msgstr "强大的扩展机制"
+
+#: Template/Pages/home.ctp:32
+msgid "Friendly"
+msgstr "以人为本的设计"
+
+#: Template/Pages/home.ctp:34
+msgid "Out-of-the-box"
+msgstr "真正的开箱即用"
+
+#: Template/Pages/home.ctp:35
+msgid "Straightforward"
+msgstr "直观的使用方法"
+
+#: Template/Pages/home.ctp:36
+msgid "Reliable"
+msgstr "放心的工作流程"
+
+#: Template/Pages/home.ctp:37
+msgid "Customizable"
+msgstr "高度的可配置性"
+
+#: Template/Permissions/add.ctp:10
+#: Template/Permissions/edit.ctp:16
+#: Template/Permissions/view.ctp:12
+#: Template/Users/add.ctp:11
+#: Template/Users/edit.ctp:17
+#: Template/Users/index.ctp:11
+#: Template/Users/view.ctp:14
+msgid "List Permissions"
+msgstr "权限列表"
+
+#: Template/Permissions/add.ctp:18
+msgid "Add Permission"
+msgstr "新增权限"
+
+#: Template/Permissions/edit.ctp:24
+#: Template/Permissions/view.ctp:10
+msgid "Edit Permission"
+msgstr "编辑权限"
+
+#: Template/Permissions/index.ctp:10
+#: Template/Permissions/view.ctp:13
+#: Template/Users/add.ctp:12
+#: Template/Users/edit.ctp:18
+#: Template/Users/index.ctp:12
+#: Template/Users/view.ctp:15
+msgid "New Permission"
+msgstr "新增权限"
+
+#: Template/Permissions/index.ctp:16
+msgid "Permissions"
+msgstr "权限"
+
+#: Template/Permissions/view.ctp:11
+msgid "Delete Permission"
+msgstr "删除权限"
+
+#: Template/Permissions/view.ctp:26
+#: Template/Users/view.ctp:57
+msgid "Allow"
+msgstr "容许"
+
+#: Template/Users/add.ctp:18
+msgid "Add User"
+msgstr "新增用户"
+
+#: Template/Users/edit.ctp:24
+#: Template/Users/view.ctp:10
+msgid "Edit User"
+msgstr "编辑用户"
+
+#: Template/Users/index.ctp:16
+msgid "Users"
+msgstr "用户"
+
+#: Template/Users/login.ctp:1;7
+msgid "Login"
+msgstr "登录"
+
+#: Template/Users/login.ctp:3
+msgid "Fool ID"
+msgstr "傻瓜ID"
+
+#: Template/Users/login.ctp:10
+msgid "Third-party ID"
+msgstr "第三方ID"
+
+#: Template/Users/login.ctp:12
+msgid "GitHub"
+msgstr "GitHub"
+
+#: Template/Users/view.ctp:11
+msgid "Delete User"
+msgstr "删除用户"
+
+#: Template/Users/view.ctp:22
+msgid "Provider"
+msgstr "提供方"
+
+#: Template/Users/view.ctp:26
+msgid "Username"
+msgstr "用户名"
+
+#: Template/Users/view.ctp:30
+msgid "Access Token"
+msgstr "口令"
+
+#: Template/Users/view.ctp:34
+msgid "Email"
+msgstr "电邮"
+
+#: Template/Users/view.ctp:51
+msgid "Related Permissions"
+msgstr "相关权限"
+
+#: Template/Users/view.ctp:56
+msgid "User Id"
+msgstr "用户编号"
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr "找不到位置{0}"
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr "服务器发生异常"
+
+#: Layout/error.ctp:39
+msgid "Home"
+msgstr "主页"
+
+msgid "Sorry: "
+msgstr "对不起："
+
+msgid "Table of contents"
+msgstr "目录"
+
+msgid "Parent"
+msgstr "上级"
+
+msgid "Slug"
+msgstr "简称"

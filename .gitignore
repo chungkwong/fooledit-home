@@ -1,0 +1,10 @@
+/bin/
+/logs/
+/nbproject/private/
+/plugins/
+/tests/
+/tmp/
+/vendor/
+/composer.lock
+/phpunit.xml.dist
+/webroot/js
